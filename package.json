@@ -1,0 +1,24 @@
+{
+  "name": "vulnerablitypwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1 -p 4010"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "0.12.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "code-telescope": "^1.0.0",
+    "puppeteer": "^11.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xss-attack-detection": "^1.0.4"
+  }
+}

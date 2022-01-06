@@ -1,0 +1,56 @@
+
+
+html { background-color: #fdfdfd } 
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    background-color:#fdfdfd; 
+    margin: 0 auto;
+    
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 200px 600px 300px;
+    grid-template-rows: 51px 400px 30px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Title-Area Title-Area ."
+      "Input-Area Image-Button-Area ."
+      "Lower-Area Lower-Area .";
+      
+  }
+  
+  .Title-Area
+  { grid-area: Title-Area; 
+    background-color: #fdfdfd; 
+    font-size: larger; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  
+  
+  .Input-Area { grid-area: Input-Area; background-color: #fdfdfd; border-right-style: ridge; padding-top: 100px;}
+  
+  .Image-Button-Area { grid-area: Image-Button-Area; background-color:#fdfdfd; width: 800px;}
+  
+  .Lower-Area { grid-area: Lower-Area; /*background-color:darkgreen;*/}
+  
+  .imageBox
+  {
+    padding-top: 100px;
+    padding-left: 50px;
+    float: left;
+    /*background-color: blueviolet;*/
+    text-align: center;
+  }
+
+  .button
+  {
+
+    text-align: center;
+    /*background-color: RED;*/
+  }

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="#">
+    <title>Comp 4905 Project PWA</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Title-Area"><p>Comp 4905 Progresive Web App Project</p></div>
+        <div class="Input-Area">
+             <p>Enter Url</p>
+             <p><input type="text" id="urlInput"></p>
+             <p>Enter Source Code</p>
+             <p><input type="text" id="scriptSource"></p>
+        </div>
+        <div class="Image-Button-Area">
+            <div class="imageBox">
+                <div class="image"><img src="images/magGlass.png" alt=""></div>
+                <div class="button" id="scanUrl"><input type="button" value="Scan URL"></div>
+            </div>
+            <div class="imageBox">
+                <div class="image"><img src="images/CheckList.png" alt=""></div>
+                <div class="button"><input type="button" value="Scan JS Script" id="scanSource"></div>
+            </div>
+            <div class="imageBox">
+                <div class="image"><img src="images/stop.png" alt=""></div>
+                <div class="button"><input type="button" value="Stop" id="stop"></div>
+            </div>
+        </div>
+        <div class="Lower-Area"></div>
+      </div>
+      <script src="app.js"></script>
+      <!--<script src="buttons.js"></script>-->
+      <script src="packedScripts.js"></script>
+</body>
+</html>
